@@ -1,0 +1,271 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Portfolio Design System - Futuristic Neon Green Theme */
+
+@layer base {
+  :root {
+    /* Background Colors */
+    --background: 240 10% 3.9%; /* Dark navy background */
+    --foreground: 0 0% 98%; /* Almost white text */
+    --surface: 240 8% 6%; /* Darker surface */
+    --surface-light: 240 6% 10%; /* Lighter surface */
+
+    /* Brand Colors */
+    --neon-green: 84 100% 59%; /* Primary neon green #d4f24f */
+    --neon-green-dim: 84 80% 45%; /* Dimmed neon green */
+    --purple-accent: 258 84% 47%; /* Purple accent #4728d0 */
+    --purple-light: 258 70% 60%; /* Lighter purple */
+    
+    /* Text Colors */
+    --text-primary: 0 0% 98%; /* White text */
+    --text-secondary: 220 15% 70%; /* Light gray text */
+    --text-accent: 84 100% 59%; /* Neon green text */
+    --text-muted: 220 15% 50%; /* Muted gray text */
+
+    /* Interactive Colors */
+    --hover-glow: 84 100% 59%; /* Neon green glow */
+    --button-primary: 84 100% 59%; /* Neon green buttons */
+    --button-secondary: 258 84% 47%; /* Purple buttons */
+    --border-subtle: 240 15% 15%; /* Subtle borders */
+    --border-accent: 84 100% 59%; /* Accent borders */
+
+    /* Shadows and Effects */
+    --shadow-glow: 0 0 20px hsl(84 100% 59% / 0.3);
+    --shadow-purple: 0 0 20px hsl(258 84% 47% / 0.3);
+    --gradient-primary: linear-gradient(135deg, hsl(84 100% 59%), hsl(84 80% 45%));
+    --gradient-surface: linear-gradient(135deg, hsl(240 10% 3.9%), hsl(240 8% 6%));
+
+    /* Legacy support for shadcn */
+    --primary: 84 100% 59%;
+    --primary-foreground: 240 10% 3.9%;
+    --secondary: 240 8% 6%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 6% 10%;
+    --muted-foreground: 220 15% 70%;
+    --accent: 258 84% 47%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 15% 15%;
+    --input: 240 8% 6%;
+    --ring: 84 100% 59%;
+    --card: 240 8% 6%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 8% 6%;
+    --popover-foreground: 0 0% 98%;
+
+    --radius: 0.75rem;
+  }
+
+  /* Font families */
+  .font-orbitron { font-family: 'Orbitron', monospace; }
+  .font-inter { font-family: 'Inter', sans-serif; }
+  .font-space { font-family: 'Space Grotesk', sans-serif; }
+  .font-mono { font-family: 'JetBrains Mono', monospace; }
+
+  /* Custom animations */
+  @keyframes neon-pulse {
+    0%, 100% { 
+      box-shadow: 0 0 5px hsl(var(--neon-green)), 0 0 10px hsl(var(--neon-green)), 0 0 15px hsl(var(--neon-green));
+    }
+    50% { 
+      box-shadow: 0 0 10px hsl(var(--neon-green)), 0 0 20px hsl(var(--neon-green)), 0 0 30px hsl(var(--neon-green));
+    }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  @keyframes glow-text {
+    from { text-shadow: 0 0 10px hsl(var(--neon-green)); }
+    to { text-shadow: 0 0 20px hsl(var(--neon-green)), 0 0 30px hsl(var(--neon-green)); }
+  }
+
+  @keyframes hexagon-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  /* New Liquid Fill Animation */
+  @keyframes liquid-fill {
+    0% { 
+      clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+    }
+    100% { 
+      clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
+    }
+  }
+
+  /* Particle Burst Animation */
+  @keyframes particle-burst {
+    0% { 
+      transform: scale(0) rotate(0deg);
+      opacity: 1;
+    }
+    100% { 
+      transform: scale(3) rotate(360deg);
+      opacity: 0;
+    }
+  }
+
+  /* Blur to Sharp Reveal */
+  @keyframes blur-reveal {
+    from { 
+      filter: blur(8px);
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to { 
+      filter: blur(0px);
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* 3D Flip Animation */
+  @keyframes flip-in {
+    from {
+      transform: perspective(400px) rotateY(90deg);
+      opacity: 0;
+    }
+    to {
+      transform: perspective(400px) rotateY(0deg);
+      opacity: 1;
+    }
+  }
+
+  /* Parallax Gradient */
+  @keyframes gradient-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  /* Cursor Follow Glow */
+  @keyframes cursor-glow {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 0.8; }
+  }
+
+  /* Utility classes */
+  .text-glow {
+    text-shadow: 0 0 10px hsl(var(--neon-green));
+  }
+
+  .border-glow {
+    border: 1px solid hsl(var(--neon-green));
+    box-shadow: 0 0 10px hsl(var(--neon-green) / 0.3);
+  }
+
+  .bg-gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .bg-gradient-surface {
+    background: var(--gradient-surface);
+  }
+
+  .animate-neon-pulse {
+    animation: neon-pulse 2s ease-in-out infinite;
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animate-glow-text {
+    animation: glow-text 2s ease-in-out infinite alternate;
+  }
+
+  .animate-hexagon-spin {
+    animation: hexagon-spin 2s linear infinite;
+  }
+
+  /* New Animation Classes */
+  .animate-liquid-fill {
+    animation: liquid-fill 1.5s ease-out forwards;
+  }
+
+  .animate-particle-burst {
+    animation: particle-burst 0.8s ease-out forwards;
+  }
+
+  .animate-blur-reveal {
+    animation: blur-reveal 0.8s ease-out forwards;
+  }
+
+  .animate-flip-in {
+    animation: flip-in 0.6s ease-out forwards;
+  }
+
+  .bg-parallax-gradient {
+    background: linear-gradient(-45deg, 
+      hsl(var(--background)), 
+      hsl(var(--surface)), 
+      hsl(var(--surface-light)), 
+      hsl(var(--background))
+    );
+    background-size: 400% 400%;
+    animation: gradient-shift 15s ease infinite;
+  }
+
+  .cursor-glow {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle, hsl(var(--neon-green) / 0.6) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    animation: cursor-glow 2s ease-in-out infinite;
+  }
+
+  /* Snap Icon Animations */
+  .icon-snap {
+    transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .icon-snap:hover {
+    transform: scale(1.2);
+  }
+
+  .icon-snap:active {
+    transform: scale(0.95);
+  }
+
+  /* Mobile Tap Highlight */
+  .tap-highlight {
+    -webkit-tap-highlight-color: hsl(var(--neon-green) / 0.3);
+    tap-highlight-color: hsl(var(--neon-green) / 0.3);
+  }
+
+  /* Reduced Motion Support */
+  @media (prefers-reduced-motion: reduce) {
+    .animate-liquid-fill,
+    .animate-particle-burst,
+    .animate-blur-reveal,
+    .animate-flip-in,
+    .bg-parallax-gradient,
+    .cursor-glow {
+      animation: none;
+    }
+    
+    .icon-snap {
+      transition: none;
+    }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
