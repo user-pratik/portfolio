@@ -20,5 +20,5 @@ export default defineConfig(({ mode }) => ({
   },
   // ✅ Use "/portfolio/" for GitHub Pages deployment
   // ✅ Use "/" if running on localhost or if repo = username.github.io
-  base: mode === "production" ? "/portfolio/" : "/",
+  base: mode === "production" && !process.env.VERCEL ? "/portfolio/" : "/",
 }));
