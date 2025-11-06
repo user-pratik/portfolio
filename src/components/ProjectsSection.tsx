@@ -22,6 +22,46 @@ const ProjectsSection = () => {
       borderColor: 'border-blue-500/20'
     },
     {
+      title: 'Smart Up Arrow',
+      description: 'Lightweight shell enhancement that makes ↑/↓ perform prefix-based history search across Bash, Zsh, and PowerShell — no background daemons, just simple keybindings and install scripts.',
+      tech: ['Bash', 'Zsh', 'PowerShell', 'PSReadLine', 'Keybindings', 'Shell Utilities'],
+      github: 'https://github.com/user-pratik/smart-up-arrow',
+      icon: ArrowUpRight,
+      color: 'text-yellow-400',
+      bgColor: 'bg-yellow-500/10',
+      borderColor: 'border-yellow-500/20'
+    },
+    {
+      title: 'AprilTag Tracking with OpenCV',
+      description: 'Real-time AprilTag detection and tracking using OpenCV and pupil-apriltags. Detects tag corners and center, computes offsets from image center, provides arrow guidance and estimates angle/distance using pinhole camera geometry.',
+      tech: ['OpenCV', 'pupil-apriltags', 'Computer Vision', 'Python', 'Real-time', 'Camera'],
+      github: 'https://github.com/user-pratik/apriltag-tracking',
+      icon: Network,
+      color: 'text-cyan-400',
+      bgColor: 'bg-cyan-500/10',
+      borderColor: 'border-cyan-500/20'
+    },
+    {
+      title: 'Nutrition Tracker',
+      description: 'Full-stack nutrition tracker built with Next.js 14, Supabase, and Tailwind CSS. Log meals, track nutrients, and get AI-assisted meal recommendations with a modern, responsive UI.',
+      tech: ['Next.js 14', 'Supabase', 'Tailwind CSS', 'TypeScript', 'ShadCN UI', 'Full-Stack'],
+      github: 'https://github.com/user-pratik/nutrition-tracker',
+      icon: Server,
+      color: 'text-emerald-400',
+      bgColor: 'bg-emerald-500/10',
+      borderColor: 'border-emerald-500/20'
+    },
+    {
+      title: 'Alemeno Credit Approval System',
+      description: 'Production-ready Django REST API for customer registration, loan approvals, and EMI calculations. Containerized with Docker, uses PostgreSQL, and supports background data ingestion for scalable workflows.',
+      tech: ['Django', 'Django REST Framework', 'PostgreSQL', 'Docker', 'Background Ingestion', 'API'],
+      github: 'https://github.com/sseth345/alemeno_credit_backend',
+      icon: Server,
+      color: 'text-sky-400',
+      bgColor: 'bg-sky-500/10',
+      borderColor: 'border-sky-500/20'
+    },
+    {
       title: 'Real-Time Gender-Based Alert System',
       description: 'Object detection system with scalable server architecture featuring police alert integration. Provides real-time monitoring and emergency response capabilities for enhanced security.',
       tech: ['Object Detection', 'Real-time Processing', 'Alert System', 'Computer Vision', 'Emergency Response'],
