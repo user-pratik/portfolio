@@ -1,73 +1,117 @@
-# Welcome to your Lovable project
+# 👨‍💻 Pratik Anand — Software Engineer Portfolio
 
-## Project info
+Welcome to my personal software engineering portfolio!  
+I’m **Pratik Anand**, a **Computer Science student at VIT Chennai (Batch 2027)** and a **software engineer passionate about building intelligent, scalable, and user-centric systems** — from AI-powered applications to full-stack platforms and real-time cloud services.
 
-**URL**: https://lovable.dev/projects/366d9513-bb86-4928-9f43-519c0659ac78
+🌐 **Live Portfolio:** [pratikanand.vercel.app](https://pratikanand.vercel.app/)  
+💼 **GitHub:** [github.com/user-pratik](https://github.com/user-pratik)  
+🔗 **LinkedIn:** [linkedin.com/in/introducingpratikanand](https://linkedin.com/in/introducingpratikanand)  
+📧 **Email:** pratikanand.tech@gmail.com
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 About Me
 
-**Use Lovable**
+- 🎓 **B.Tech in Computer Science and Engineering** @ Vellore Institute of Technology (2023–2027)  
+- 💡 Passionate about **AI, full-stack systems, and cloud-native solutions**  
+- 🧠 Experienced with **real-time systems**, **ML integration**, and **scalable backend design**
+- 💬 Love solving complex problems that sit at the intersection of **data, design, and intelligence**.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/366d9513-bb86-4928-9f43-519c0659ac78) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+**Languages:**  
+`C++` · `Python` · `JavaScript` · `TypeScript`  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**Frameworks & Tools:**  
+`React.js` · `Express.js` · `Flask` · `Phoenix LiveView` · `Tailwind CSS` · `Flutter`
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**Cloud & DevOps:**  
+`AWS` · `Azure` · `Docker` · `GitHub Actions` · `Linux CLI` · `DynamoDB` · `MongoDB`
 
-Follow these steps:
+**Domains:**  
+`Machine Learning` · `Computer Vision` · `Generative AI` · `IoT` · `CloudOps`
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 💼 Work Experience
 
-# Step 3: Install the necessary dependencies.
-npm i
+### **Full-Stack Intern @ Mindmach Technologies** (May 2025 – Present)
+- Deployed **AWS Bedrock AI** to automate JD creation, reducing user effort by ~40%.
+- Integrated **DynamoDB** for efficient key-value storage, improving query latency by ~20%.
+- Built **S3 file upload pipeline** with CloudFront for 5–10% faster uploads.
+- Designed **dynamic form builder** reducing setup time by ~30%.
+- Delivered **production-ready features** with a distributed team across 5 states.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### **AI Intern @ VIT Chennai** (May 2025 – July 2025)
+- Built an **AI-powered RAG pipeline** for university-level question generation.
+- Fine-tuned LLMs for contextual question creation aligned with Bloom’s Taxonomy.
+- Automated **data collection, cleaning, and distribution logic** across evaluation contexts.
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🧩 Featured Projects
 
-**Use GitHub Codespaces**
+### 🟥 [REdact – End-to-End Document Redaction App](https://github.com/user-pratik/REdact)
+> Flask app using OCR and ML models to automatically detect and redact sensitive data.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 🟩 [Safety – Real-Time Gender-Based Alert System](https://github.com/user-pratik/Safety)
+> Object detection system with real-time alerts and police notifications, built for safety monitoring.
 
-## What technologies are used for this project?
+### 🔥 [Firewall – Intelligent Network Firewall](https://github.com/user-pratik/Firewall)
+> Hybrid rule-based + ML firewall for real-time anomaly detection and proactive threat blocking.
 
-This project is built with:
+### 🧠 [Solomon The Wise – AI Word Guessing Game](https://github.com/user-pratik/solomonTHEwise)
+> AI-integrated React + Express game featuring dynamic question answering with interactive UI.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### ⚙️ [Service App – Full-Stack Service Platform](https://github.com/user-pratik/service-app)
+> React + Node.js web app with payment gateway, chat, and scalable cloud backend.
 
-## How can I deploy this project?
+### 🌍 [Airc – IoT Smart Environment Control](https://github.com/user-pratik/Airc)
+> IoT system for real-time environment monitoring with Flutter frontend and cloud integration.
 
-Simply open [Lovable](https://lovable.dev/projects/366d9513-bb86-4928-9f43-519c0659ac78) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🏆 Certifications
 
-Yes, you can!
+- **Cisco Packet Tracer** – Network simulation and topology design  
+- **IIT Bombay C & C++ Certification** – Advanced programming and problem-solving  
+- 📂 [View all certifications](https://drive.google.com/drive/folders/13NTNEzH9wWc8WNpn5O3ZUgvdDKwVJEl8?usp=drive_link)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🤝 Leadership & Volunteering
+
+- **Tech Lead @ CloudOps** – Led and organized seminars and tech events  
+- **Co-Organizer** – Innovate x Impact Hackathon (in collaboration with V-nest)  
+- Mentored peers on **cloud architecture** and **AI-driven system design**
+
+---
+
+## 📸 Portfolio Links
+
+🌐 **Live Portfolio:** [pratikanand.vercel.app](https://pratikanand.vercel.app/)  
+💻 **GitHub Profile:** [github.com/user-pratik](https://github.com/user-pratik)  
+🧾 **LinkedIn:** [linkedin.com/in/introducingpratikanand](https://linkedin.com/in/introducingpratikanand)
+
+---
+
+## 📬 Contact
+
+If you'd like to discuss tech, collaboration, or opportunities, feel free to reach out!
+
+📧 **Email:** [pratikanand.tech@gmail.com](mailto:pratikanand.tech@gmail.com)  
+📞 **Phone:** +91 7903956084  
+
+---
+
+## 🧾 License
+
+This portfolio and its contents are © 2025 **Pratik Anand**.  
+Feel free to reference or draw inspiration, but please provide attribution.
+
+---
+
+> “Code is the medium; creativity is the message.” — *Pratik Anand*
+

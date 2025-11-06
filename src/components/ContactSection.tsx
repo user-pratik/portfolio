@@ -38,15 +38,15 @@ const ContactSection = () => {
 
     try {
       await emailjs.send(
-        'service_9z957sp',
-        'template_8hv5o9s',
+        'service_ckcu6p9',
+        'template_0ydi1qh',
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
           to_name: 'Pratik Anand'
         },
-        'U4X1hdrXt4Qyks9V0'
+        'fW0Kq8SW2hv5MQW-g'
       );
 
       toast({
